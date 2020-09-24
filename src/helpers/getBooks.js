@@ -7,7 +7,7 @@ const getBooks  = async(category) => {
             id: lib.ID,
             title: lib.title,
             pages: lib.pages,
-            thumbnail: lib.thumbnail,
+            thumbnail: lib.cover,
             download: lib.url_download,
             language: lib.language,
             publisher_date: lib.publisher_date
