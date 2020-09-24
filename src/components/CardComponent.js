@@ -4,7 +4,9 @@ const CardComponent = ({title,thumbnail,download,pages,language,publisher_date})
     return (
         <div className="col-lg-3 ">
             <div className="card animate__animated animate__bounce">
-                <img src={thumbnail} className="card-img-top" alt={title}/> 
+                <div className="text-center thumbnail-libro">
+                    <img src={thumbnail} className="card-img-top" alt={title}/> 
+                </div>
                 <div className="card-body">
                     <h6 className="card-title">{title}</h6>
                     {/*<p className="card-text"></p>*/}
